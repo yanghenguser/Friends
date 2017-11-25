@@ -1,0 +1,361 @@
+#main-frame{
+	width: 85%;
+	margin: 0 auto;
+	text-align: center;
+}
+/*
+#main-leftfame{
+	width: 200px;
+	display: inline-block;
+	margin: 0 20px 0 0;
+}
+#main-rightframe{
+	text-align: center;
+	margin:0 auto;
+}
+.nav-tabs{
+	width: 60% !important;
+}*/
+.content{
+	width: 60%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	margin-top:20px;
+	border: 1px solid #eeb422;
+	border-radius: 4px;
+	padding: 10px;
+	 -moz-transition:-moz-transform .15s linear;  
+	 -o-transition:-o-transform .15s linear;  
+	 -webkit-transition:-webkit-transform .15s linear; 
+     -moz-box-shadow: 5px 5px 7px rgba(33,33,33,0.5); /* Safari+Chrome */
+     -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7); /* Opera */
+     box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+}
+.content h4{
+	 color:#999; 
+	 font-weight:normal; 
+	 display: inline-block;
+	 float: right;
+	 font-size: 14px;
+} 
+.content h3{ 
+	margin: 0 0 0 10px;
+	color:#369; 
+	display: inline-block;
+}
+.content .editor{ 
+	color:#333; 
+	line-height:180%; 
+	/*height:110px;*/ 
+} 
+.content .bottom{ 
+	padding:5px 0 0 0; 
+} 
+
+.content .comment{
+	color: #336699;
+	cursor: pointer;
+	margin: 10px 4px 2px 5px;
+	letter-spacing:1px;
+}
+.content .supmsged{
+	color:gray;
+}
+.content .losmsged{
+	color:gray;
+}
+.content .comment_list{
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 5px 10px;
+	margin-top: 12px;
+    padding: 5px;
+	display: none;
+}
+.content .comment_list dl{
+	padding: 0;
+	margin:0;
+	padding: 3px 10px 5px 0;
+
+}
+.content .comment_list dl dt{
+	 padding: 5px 0 0 0;
+	 color: #369;
+		margin:0;
+}
+.content .comment_list dl.comment_content{
+		border-bottom: 1px solid #ccc;
+}
+.content .comment_list dl dd{
+	padding: 0;
+	margin:0;
+	color: #333;
+	line-height: 180%;
+}
+.content .comment_list dl dd .date{
+	color: #666;
+}
+.content .add_comment{
+	text-align: right;
+	border: none;
+}
+.content .add_comment input{
+	cursor: pointer;
+}
+.content .add_comment textarea{
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background: #fff;
+	font-size: 12px;
+	padding: 5px;
+	color: #666;
+	resize: none;
+}
+.content hr{ 
+	color:#ccc; 
+	height:1px; 
+} 
+.content .up{ 
+	float:right; 
+	color:#369; 
+	cursor:pointer; 
+} 
+.content .down{ 
+	color:#369; 
+	cursor:pointer; 
+}
+.content input{
+	width:90%;
+	height:25px;
+	position:relative;
+	top:5px;
+}
+.content dd,.content dt{
+	display:block;
+}
+.content dt span{
+	color:#999;
+	font-size:16px;
+	font-weight:normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*reset css*/
+.izl-rmenu{
+	       margin-right: 0;
+	       width: 82px;
+	       position: fixed;
+	       right: 12.5%;
+	       top: 59%;
+	       -webkit-box-shadow: #DDD 0px 1px 5px;
+	       -moz-box-shadow: #DDD 0px 1px 5px;
+	       box-shadow: #DDD 0px 1px 5px;
+	       z-index:999;
+}
+.izl-rmenu .consult{   
+	cursor:pointer;
+	background-image: url(../img/aside.png);
+    background-repeat: no-repeat;
+    background-position:-220px -110px;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+}
+
+.izl-rmenu a.consult:hover{
+	background:url(../img/aside.png);
+	background-repeat: no-repeat;
+	background-position:-220px -165px;
+    display: block;
+    width: 45px;
+    height: 45px;
+}
+.izl-rmenu .reload {
+	cursor:pointer;
+	margin:10px 0 0 0;
+    background-image: url(../img/aside.png);
+    background-repeat: no-repeat;
+    background-position:-220px 0px;
+    display: block;
+    height: 45px;
+    width: 45px;
+}
+.izl-rmenu a.reload:hover{
+	background-image: url(../img/aside.png);
+	background-position:-220px -55px;
+    background-repeat: no-repeat;
+    display: block;
+    height: 45px;
+    width: 45px;
+}
+.izl-rmenu .share {
+	cursor:pointer;
+	margin:10px 0 0 0;
+    background-image: url(../img/aside.png);
+    background-position:-110px -165px;
+    background-repeat: no-repeat;
+    display: block;
+    height: 45px;
+    width: 45px;
+}
+.izl-rmenu a.share:hover{
+	background-image: url(../img/aside.png);
+    background-repeat: no-repeat;
+    background-position:-165px -165px;
+    display: block;
+    height: 45px;
+    width: 45px;
+}
+.izl-rmenu .btn_top {
+	margin:10px 0 0 0;
+    background-image: url(../img/aside.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    display: block;
+    height: 45px;
+    width: 45px;
+}
+.izl-rmenu .btn_top:hover {
+	background-image: url(../img/aside.png);
+	background-repeat: no-repeat;
+	background-position:-165px -110px;
+	display: block;
+    height: 45px;
+    width: 45px;
+}
+
+.pagehelper{
+	width:60%;
+	height:50px;
+	margin:0 auto;
+	text-align:center;
+}
+
+.pagination{
+	width:60%;
+	text-align:center;
+	padding:0px 0 0 40px;
+}
+.pagination li{
+
+	width:33px;
+	height:33px;
+	display:inline-block;
+	margin:0;
+}
+.pagination li a{
+	text-align:center;
+	background:#fff;
+	width:33px;
+	height:33px;
+	display:block;
+	border:1px solid #000;
+	border-radius:4px;
+	line-height:33px;
+	margin:0;
+}
+#sendmsg{
+	width:60%;
+	height:550px;
+	
+}
+#sendmsg input{
+	width:90%;
+}
+#sendmsg .textarea{
+	width:850px;
+	height:250px;
+}
+.content .load{
+	background:url(../img/load.gif) no-repeat;
+	width:32px;
+	height:32px;
+	background-size:cover;
+	margin:2px 0 0 10px;
+	display:none;
+}
+
+/*联系此人开始*/
+
+.contact{
+	width:100px ;
+	height:30px ;
+	float:right ;
+	display:inline-block ;
+	line-height:30px ;
+	cursor:pointer ;
+	background: #ebb;;
+
+}
+
+.contact:hover{
+
+    background: #eb7;
+
+}
+
+.contact .img_qq{
+    margin:0 3px 0 5px;
+    font-size:16px ;
+	width:20px ;
+	height:22px ;
+	line-height:30px ;
+}
+
+/*联系此人结束*/
+
+.zan{
+	background:url(../img/zan.png) no-repeat;
+	width:16px;
+	height:16px;
+	background-size:cover;
+	display: inline-block;
+    margin: 0px 3px 0 0;
+    line-height: 14px;
+    vertical-align: text-top;
+}
+.zan-active{
+	background:url(../img/zan-active.png) no-repeat;
+	width:16px;
+	height:16px;
+	background-size:cover;
+	display: inline-block;
+    margin: 0px 3px 0 0;
+    line-height: 14px;
+    vertical-align: text-top;
+}
+.cai{
+	background:url(../img/cai.png) no-repeat;
+	width:16px;
+	height:16px;
+	background-size:cover;
+	display: inline-block;
+    margin: 0px 3px 0 0;
+    line-height: 14px;
+    vertical-align: text-top;
+}
+.cai-active{
+	background:url(../img/cai-active.png) no-repeat;
+	width:16px;
+	height:16px;
+	background-size:cover;
+	display: inline-block;
+    margin: 0px 3px 0 0;
+    line-height: 14px;
+    vertical-align: text-top;
+}
+
+
+
+
+

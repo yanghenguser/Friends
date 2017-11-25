@@ -1,0 +1,24 @@
+#main_body{
+	width: 65%;
+	margin:0 auto;
+	padding: 30px;
+	margin-top:40px;
+}
+
+#main_body .about p{
+	font-size: 22px;
+	font-family:"隶书";
+	line-height: 1.5;
+	margin: 0 0 10px 0;
+	letter-spacing:1.5px;
+	text-indent:40px;
+}
+#main_body .about ul{
+	font-size: 20px;
+}
+#main_body .about li{
+	font-style: normal;
+	margin: 5px 0;
+
+}
+

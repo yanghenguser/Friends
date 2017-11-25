@@ -1,0 +1,432 @@
+@charset "utf-8";
+
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../img/bg.jpg);
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+    font-weight: normal;;
+}
+h4,h2{
+	margin:0 !important;
+}
+ul,ol {
+	list-style: outside none none !important;
+}
+li{
+	line-height: none;
+}
+/*设置google的英文字体*/
+@font-face{
+	font-family:'Reenie Beanie';
+	font-style:normal;
+	font-weight:400;
+	src:local('Reenie Beanie'),local('ReenieBeanie'),url(../font/wolf.woff2);
+	unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215;
+}
+.none{
+	display: none;
+}
+.logo{
+	margin-top: 2px;
+	margin-left: 0px;
+	text-indent: -9999px;
+	background: url(../img/logo.png) no-repeat;
+	display: inline-block;
+	color: transparent;
+	height: 60px;
+	line-height:60px ;
+	 background-size: cover;
+ 	width: 100%;
+}
+#header{
+	width: 100%;
+	height: 60px;
+	background-color: #d8ceb6;
+	z-index: 1000;
+	box-shadow: 0 1px 10px rgba(0,0,0,0.2);
+	position: fixed;
+	top: 0;
+	left: 0;
+	
+}
+#main{
+	margin: 0 auto;
+	width: 85%;
+	
+}
+a {
+	text-decoration: none !important;
+}
+a{
+	color: #08c;
+}
+#header .sec-header{
+	
+	float: left;
+	display: inline-block;
+}
+#header .nav-head{
+	width: 100%;
+	float: left;
+	color: #333;
+	margin: 0 auto;
+	position: relative;
+	top: -4px;
+	
+}
+#header .nav-head li{
+	line-height: 70px;
+	width: 120px;	
+	text-align: center;
+	float: left;
+}
+#header .nav-head li a{
+	font-size:18px;
+	letter-spacing: 3px;
+	height: 65px;
+	display:block;
+	color: #000;
+}
+#header .nav-head li .left-border {
+	border-left: 1px solid #d8d8d8;
+}
+#header .nav-head li a:hover{
+	background-color: #cdaa7d;
+	color: #777 !important;
+	cursor: pointer;	
+}
+#header .nav-head li .active{
+	background-color: #cdaa7d;
+	color: #777 !important;
+}
+#header .main{
+	background: url(../img/base.png) no-repeat scroll;
+	display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0px 3px 0 0;
+    line-height: 14px;
+    vertical-align: text-top;
+}
+
+#header .companel{
+	background: url(../img/group.png) no-repeat scroll;
+	display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0px 3px 0 0;
+    line-height: 14px;
+    vertical-align: text-top;
+}
+#header .show{
+	background: url(../img/tag.png) no-repeat scroll;
+	display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0px 3px 0 0;
+    line-height: 14px;
+    vertical-align: text-top;
+}
+#header .about{
+	background: url(../img/letter.png) no-repeat scroll;
+	display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0px 3px 0 0;
+    line-height: 14px;
+    vertical-align: text-top;
+}
+#header .header_member{
+	float: right;
+	height: 60px;
+	line-height: 60px;
+	color: #555;
+	font-size: 16px;
+	margin: 0 40px 0 0;
+	display: inline-block;
+}
+
+#header .header_member a{
+	letter-spacing: 3px;
+	text-decoration: none;
+	color: #555;
+}
+#header .header_member a:hover{
+	color: red;
+}
+.userimg{
+	background: url(../img/boy-5.png) no-repeat scroll;
+	display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size:cover;
+    position:relative;
+    top:6px;
+    left:-5px;
+	
+}
+
+
+#main_body{
+	width: 100%;
+	padding:60px 0 0 0;
+}
+#reg ,#login{
+	width: 380px;
+	margin:0 auto;
+}
+#reg .text-position,#login .text-position {
+	color:#666;
+	font-size: 18px;
+	display: inline-block;
+	width: 100px;
+}
+
+#reg ol , #login ol, #question ol{
+	margin: 0;
+	padding: 0 0 0 0px;
+	color: maroon;
+}
+
+#reg .star, #login .star, #question .star{
+	margin: 0 0 0 2px;
+	font-size: 20px;
+	color: maroon;
+}
+#speaks{
+	width:380px;
+	height:320px;
+	margin:0;
+	padding:0;
+}
+#speaks #Notes{
+	width:348px;
+	height:180px;
+	resize: none;
+	margin:0;
+	padding:0;
+}
+#myCarousel{
+	width:80% !important;
+	margin:0 auto;
+}
+
+
+#wall {
+	width:90%;
+    margin: 0 auto;
+	padding: 10px;
+}
+#wall .speak{
+	width: 190px;
+	height: 150px;
+	float: right;
+	background:url(../img/speak.png) no-repeat ;
+	position:relative ;
+	top: -100px;
+	right:5%;
+	cursor:pointer;
+	background-size:cover;
+	display:inline-block;
+	
+}
+#wall .walltitle{
+	color: #666;
+	margin: 10px 0 10px 10%;
+	position:relative;
+	left:10%;
+}
+#wall .walltext{
+	color: #777;
+	letter-spacing: 2px;
+	font-size: 18px;
+	margin-left:5% ;
+}
+.notes{
+	padding: 10px;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+}
+.notes li{
+	margin: 3% 8% 5% 5%;
+	float: left;
+}
+.notes h2{
+	font-weight: bold;
+	font-size: 140%;
+	padding-bottom: 10px;
+	text-align: left;
+}
+.notes .notebox{
+	  text-decoration:none;
+      color:#000;
+      background:#ffc;
+      display:block;
+      height:160px;
+      width:160px;
+      padding:10px 30px 30px 10px;
+      -moz-transition:-moz-transform .15s linear;  
+	  -o-transition:-o-transform .15s linear;  
+	  -webkit-transition:-webkit-transform .15s linear; 
+      -moz-box-shadow: 5px 5px 7px rgba(33,33,33,1); /* Safari+Chrome */
+      -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7); /* Opera */
+       box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+       overflow:hidden;
+       position:relative;
+}
+.notes .notebox p{
+	font-family: "Reenie Beanie" ,arial,sans-serif,微软雅黑;
+	font-size: 110%;
+}
+.notes .notebox{
+	 -webkit-transform:rotate(-6deg);
+      -o-transform:rotate(-6deg);
+      -moz-transform:rotate(-6deg);
+}
+.notes li:nth-child(even) a{
+	  -o-transform:rotate(4deg);
+      -webkit-transform:rotate(4deg);
+      -moz-transform:rotate(4deg);
+      position:relative;
+      top:5px;
+}
+.notes li:nth-child(3n) a{
+	  -o-transform:rotate(-3deg);
+      -webkit-transform:rotate(-3deg);
+      -moz-transform:rotate(-3deg);
+      position:relative;
+      top:-5px;
+      background:#cfc;
+}
+
+.notes li:nth-child(5n) a{
+	  -o-transform:rotate(4deg);
+      -webkit-transform:rotate(4deg);
+      -moz-transform:rotate(4deg);
+      position:relative;
+      top:-10px;
+      background:#ccf;
+}
+.notes li .notebox:hover,.notes li .notebox:focus{
+	 -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+	  -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+	  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+	  -webkit-transform: scale(1.25);
+	  -moz-transform: scale(1.25);
+	  -o-transform: scale(1.25);
+	  position:relative;
+	  z-index:5;
+}
+
+#more{
+	width:240px;
+	height:40px;
+	border:1px solid gray;
+	outline:none;
+	border-radius:6px;
+	background:#ccc;
+	cursor:pointer;
+	text-align:center;
+	margin:0 auto;
+	line-height:40px;
+	position:relative;
+	top:-20px;
+	left:-80px;
+	font-size:18px;
+	
+}
+
+.zan{
+	background:url(../img/zan.png) no-repeat;
+	width:16px;
+	height:16px;
+	background-size:cover;
+	display: inline-block;
+    margin: 0px 3px 0 0;
+    line-height: 14px;
+    vertical-align: text-top;
+}
+.zan-active{
+	background:url(../img/zan-active.png) no-repeat;
+	width:16px;
+	height:16px;
+	background-size:cover;
+	display: inline-block;
+    margin: 0px 3px 0 0;
+    line-height: 14px;
+    vertical-align: text-top;
+}
+.cai{
+	background:url(../img/cai.png) no-repeat;
+	width:16px;
+	height:16px;
+	background-size:cover;
+	display: inline-block;
+    margin: 0px 3px 0 0;
+    line-height: 14px;
+    vertical-align: text-top;
+}
+.cai-active{
+	background:url(../img/cai-active.png) no-repeat;
+	width:16px;
+	height:16px;
+	background-size:cover;
+	display: inline-block;
+    margin: 0px 3px 0 0;
+    line-height: 14px;
+    vertical-align: text-top;
+}
+.support{
+	position:absolute;
+	bottom:3px;
+	left:20px;
+	color:#000;
+	
+}
+.loose{
+	position:absolute;
+	bottom:3px;
+	right:20px;
+	color:#000;
+}
+
+#more:hover{
+	background-color:#ddd;
+	color:#fff;
+}
+
+
+
+#loading{
+	background: white url(../img/loading.gif) no-repeat 0px center;
+	line-height: 25px;
+	font-size: 14px;
+	font-weight: bold;
+	text-indent: 40px;
+	color: #666;
+	width: 180px;
+	margin:0 auto;
+}
+
+#footer{
+	text-align: center;
+	height: 80px;
+	background-color: #e4d9be;
+}
+#footer .bottom{
+	text-align: center;
+    padding: 30px 0;
+    border-top: 1px solid #e5e5e5;
+    background-color: #e4d9be;
+}
+#footer .bottom p{
+	color: #777;
+	font-size: 14px;
+	margin-bottom: 3px;
+	
+}
+#footer .bottom .imgposition{
+	position: relative;
+}
